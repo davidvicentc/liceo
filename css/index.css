@@ -1,8 +1,5 @@
-body {
-	font-family: Montserrat;
-}
 .portada {
-	background: url('../images/bg.jpg') fixed;
+	background: linear-gradient(to left, #287aff, #943dff); 
 	background-size: cover;
 	padding-bottom: 200px;
 	color: white;
@@ -16,10 +13,15 @@ body {
 	background: #2b2b2b;
 	border-color: transparent;
 	font-size: 20px;
+	padding: 1px;
+	margin: 0px;
+}
+.navbar a {
+	color: white !important;
 }
 
 .navbar-brand img {
-	margin-top: -5px !important;
+	margin-top: -9px !important;
 }
 
 .titulo {
@@ -30,15 +32,18 @@ body {
 	font-size: 30px;
 }
 
+.juniotitle {
+	margin: -30px 53px;
+	font-size: 30px;
+	font-family: 'Lobster', sans-serif;
+}
+
 .presentation {
 	margin-top: 100px;
 }
 
 .david {
 	border-radius: 40px;
-	padding: none;
-	float: left;
-	position: relative;
 }
 
 .description {
@@ -50,12 +55,6 @@ body {
 	margin: 50px 0 50px;
 	/*border: 1px solid #2b2b2b;*/
 	/*overflow: hidden;*/
-}
-
-.text-description {
-	padding-left: 20px;
-	margin-left: 200px;
-	text-align: justify;
 }
 
 .title-b {
@@ -93,7 +92,7 @@ body {
 .contacto a {
 	color: white;
 	text-decoration: none;
-	margin: 20px 10px 10px 0;
+	margin: 20px 10px 10px 40px;
 }
 
 .form-dj {
